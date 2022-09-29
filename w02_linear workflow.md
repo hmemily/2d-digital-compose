@@ -16,6 +16,9 @@
 어둡게 저장된 이미지를 다시 원본사진처럼 출력하기 위해서 jpeg와 같은 이미지 파일들은 자체적으로 감마보정, 즉 밝아진 채로 저장이 된다. 그렇게 되면 밝게 저장된 이미지를 감마 인코딩을 통해 어둡게 만들어 결과적으로 원본과 같은 이미지를 출력할 수 있게 되는 것이다.   
 <img src="https://user-images.githubusercontent.com/60923302/118792515-af61d780-b8d2-11eb-83fc-acc6de68c077.png" width="600px" height="250px">
 
+이러한 감마값의 보정은 crt 모니터에서도 이루어졌는데, crt 모니터가 이미지를 어둡게 출력하는 문제 때문에 감마 보정을 통해 원본과 같은 색상으로 만드는 sRGB 방식이 도입되었다.
+
+
 출처: https://www.puredevsoftware.com/blog/2019/01/21/gamma-encoding/#:~:text=Gamma%20encoding%20is%20a%20non-linear%20mapping%20To%20map,usually%20be%20stored%20as%20a%20gamma%20encoded%20image.
 https://kyoungwhankim.github.io/ko/blog/color_linearworkflow/#:~:text=%EC%84%A0%ED%98%95%20%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0(Linear%20Workflow)%2C%20%ED%98%B9%EC%9D%80%20%EB%A6%AC%EB%8B%88%EC%96%B4%20%EC%9B%8C%ED%81%AC%ED%94%8C%EB%A1%9C%EC%9A%B0,%EC%97%90%EC%84%9C%20%EC%9D%B4%EB%A3%A8%EC%96%B4%EC%A7%80%EB%8A%94%20%EB%B0%A9%EC%8B%9D%EC%9D%84%20%EB%A7%90%ED%95%A9%EB%8B%88%EB%8B%A4.
 https://chrisbrejon.com/cg-cinematography/chapter-1-5-academy-color-encoding-system-aces/
