@@ -3,4 +3,14 @@ Merge: 레이어 개념/이미지와 이미지를 연결
 Rotopaint: 플레이트를 클린업 (불필요한 요소 제거) / 포토샵 브러쉬 도장툴 가념
 Tracking: 컴퓨터가 움직임을 자동계산
 
-Rotoscoping: 애니메이션에서는 실제 사물/ 인물을 따라그려 움직임을 만드는 방식. 여기선 원하는 부분을 따기 위해 알파를 쉽게 만드는 개념
+Rotoscoping: 애니메이션에서는 실제 사물/ 인물을 따라그려 움직임을 만드는 방식. 여기선 원하는 부분을 따기 위해 알파를 쉽게 만드는 개념 
+-Identify motion path
+-seperate by objects: 오브젝트들의 요소를 구분
+-stabilize plate: 움직이는 대상에 역치값을 넣어 플레이트의 움직임을 안정화
+-primary and secondary forms: 세컨더리 폼에도 쉐잎을 따야함.
+-use rotational points: 해부학적인 움직임/ 움직이고 회전하는 관절에 따라 쉐잎을 나눠야함
+
+
+*누트 스트립츠 공유 시 원본 이미지 파일의 full size format 맞추기
+project setting - project directory 에서 script directory 누르기
+파일 경로를 상대 경로로 사용
